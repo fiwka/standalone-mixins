@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.7.5",
+  "package": "ru.kdev.standalonemixins.test",
+  "refmap": "mixins.bukkitbootstrap.refmap.json",
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinTestForMixinClass"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
